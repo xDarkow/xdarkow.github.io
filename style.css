@@ -1,1 +1,45 @@
 @charset "UTF-8";
+
+body {
+    background-color: rgb(37, 37, 38);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header > h1{
+    font-size: 2em;
+    margin: 5px;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+footer{
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer > p > a {
+    text-decoration: none;
+}
